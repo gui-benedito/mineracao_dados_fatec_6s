@@ -1,0 +1,41 @@
+# Ambientes Virtuais (Virtual Environments)
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+
+# Bytecode e Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# IDEs e Editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Variáveis de ambiente e segredos
+.env
+.env.local
+
+# Distribuição / Pacotes
+build/
+dist/
+*.egg-info/
+.eggs/
+
